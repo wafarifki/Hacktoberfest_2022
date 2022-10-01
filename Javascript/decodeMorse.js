@@ -68,12 +68,7 @@ const decodeMorse = (message) => {
     }
   });
 
-  return result
-    .join('')
-    .trim()
-    .split(' ')
-    .map((e) => (e === 'hello!' ? e[0].toUpperCase() + e.slice(1) : e))
-    .join(' ');
+  return result.join('').trim();
 };
 
 console.log(decodeMorse('.... . .-.. .-.. --- -.-.--  -- -.--  -. .- -- .  .. ...  . ..- -..- --.. -.--'));
