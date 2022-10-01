@@ -19,8 +19,8 @@
 17. Akmal Fauzi
 18. niirmaaltwaatii
 19. meowcraftY
-20. 
-21. 
-22. 
-23. 
-24. 
+20. Ariq Khoiri
+21.
+22.
+23.
+24.
