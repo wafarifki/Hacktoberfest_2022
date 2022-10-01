@@ -28,3 +28,9 @@ langkah-langkah:
 
 Sekali lagi saya ingatkan, dimohon jangan lupa masukkan nama anda di contributing.md
 Terima kasih telah berpartisipasi dengan repo ini. mari terhubung dengan saya dengan mengikuti saya di github.
+
+## Our valuable Contributors👩‍💻👨‍💻 :
+
+<a href="https://github.com/wafarifki/Hacktoberfest_2022/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=wafarifki/Hacktoberfest_2022" />
+</a>
