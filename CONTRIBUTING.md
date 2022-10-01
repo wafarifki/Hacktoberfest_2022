@@ -16,7 +16,7 @@
 14. radendi
 15. Ilsyaa
 16. arsyaadi
-17. 
+17. Akmal Fauzi
 18. 
 19. 
 20. 
