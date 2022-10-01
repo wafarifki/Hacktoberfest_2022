@@ -10,6 +10,7 @@ Step By Step:
 - don't forget to add your name in CONTRIBUTING.md
 - do pull request
 - done
+
 Once again I remind you, please don't forget to enter your name on contributing.md
 Thank you for participate with this repo. let's connect with me by following me in github.
 
@@ -22,5 +23,6 @@ langkah-langkah:
 - jangan lupa tambahkan nama Anda di CONTRIBUTING.md
 - lakukan pull request
 - selesai
+
 Sekali lagi saya ingatkan, dimohon jangan lupa masukkan nama anda di contributing.md
 Terima kasih telah berpartisipasi dengan repo ini. mari terhubung dengan saya dengan mengikuti saya di github.
