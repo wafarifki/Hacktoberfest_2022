@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>random number by axzid</title>
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+      }
+      body {
+        width: 100%;
+        height: 100vh;
+        background-color: #354052;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .container {
+        width: 50%;
+        height: 500px;
+        background-color: rgb(171, 180, 201);
+        border-radius: 20px;
+        box-shadow: 10px 10px 10px #212833;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      h1 {
+        text-align: center;
+        color: #354052;
+        padding: 10px 10px;
+      }
+      #tes {
+        font-size: 7rem;
+        padding: 10px;
+        color: #435168;
+      }
+      #inputNumber {
+        padding: 5px 10px;
+        border-radius: 50px;
+        border: none;
+        margin-bottom: 15px;
+      }
+      #generate {
+        padding: 5px 20px;
+        color: white;
+        background-color: #4f607a;
+        border: none;
+        border-radius: 5px;
+      }
+      @media screen and (max-width: 600px) {
+        .container {
+          width: 80%;
+        }
+        #tes {
+          font-size: 5rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>GENRATE ANGKA RANDOM</h1>
+      <p id="tes"></p>
+      <p>Masukan angka maximum</p>
+      <input id="inputNumber" type="text" value="100" placeholder="123" />
+      <button type="" id="generate">generate</button>
+    </div>
+
+    <script>
+      let angka = document.getElementById("tes");
+      let generate = document.getElementById("generate");
+      const lawak = [];
+
+      generate.onclick = function () {
+        let input = document.getElementById("inputNumber").value;
+        let random = Math.floor(Math.random() * input);
+        angka.textContent = random;
+        console.info(random);
+
+        lawak.push(random);
+        console.log(lawak);
+      };
+    </script>
+  </body>
+</html>
