@@ -6,6 +6,21 @@
 4. Pramdhanni Dwi Putra Bintang
 5. Alief Ramadhan
 6. FanChann
-
 7. mewxz029
-8. niirmaaltwaatii
+8. Makkun
+9. AkasakaID
+10. Axzid
+11. Baihaki Al Biruni
+12. mrsparkle-70
+13. vikashjha012
+14. radendi
+15. Ilsyaa
+16. arsyaadi
+17. Akmal Fauzi
+18. niirmaaltwaatii
+19. 
+20. 
+21. 
+22. 
+23. 
+24. 
