@@ -7,6 +7,7 @@ If you looking for your first contribution, we are here to help. Just create a s
 Step By Step:
 - star and fork this repo
 - build your simple program using any language you like in our folder and give name your simple program with your username
+- Note: Please place your files according to the available folder, if there is no folder you can create the folder.
 - don't forget to add your name in CONTRIBUTING.md
 - do pull request
 - done
@@ -19,7 +20,8 @@ Jika Anda mencari kontribusi pertama Anda, kami di sini untuk membantu. Cukup bu
 
 langkah-langkah:
 - bintangi dan fork repo ini
-- buat program sederhana Anda menggunakan bahasa apa pun yang Anda suka di folder yang telah disediakan dan beri nama program sederhana Anda dengan nama pengguna Anda
+- buat program sederhana Anda menggunakan bahasa apa pun yang Anda suka di folder yang telah disediakan dan beri nama program sederhana Anda dengan nama pengguna Anda 
+- Note: Tolong tempatkan file anda sesuai folder yang tersedia, jika tidak ada folder anda dapat membuat folder tersebut.
 - jangan lupa tambahkan nama Anda di CONTRIBUTING.md
 - lakukan pull request
 - selesai
