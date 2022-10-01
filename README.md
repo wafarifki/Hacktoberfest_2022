@@ -1,9 +1,5 @@
 # Hacktoberfest_2022
 
-‼️I'm sorry this repo has been excluded from hacktoberfest‼️
-
-‼️Mohon maaf repository excluded dari hacktoberfest‼️
-
 <img src="https://uno-website-assets.s3.amazonaws.com/wp-content/uploads/2022/09/28094927/Uno_HackFest22_Hero_V1-1024x395.jpg" width="100%">
 
 If you looking for your first contribution, we are here to help. Just create a simple program using any language you like in our folder which will be counted as your first PR
