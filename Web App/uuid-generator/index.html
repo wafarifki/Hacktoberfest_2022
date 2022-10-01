@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UUID Generator</title>
+
+  <style type="text/css">
+    * {
+      margin: 0;
+      padding: 0;
+      font-family: Avenir, Helvetica, Arial, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    body {
+      background: #F7F6F2;
+    }
+
+    #app {
+      display: flex;
+      min-height: 80vh;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    image {
+      margin: 0 auto 0 auto;
+    }
+
+    p {
+      margin: 8px 0 8px;
+    }
+
+    button {
+      padding: 2px 4px;
+      cursor: pointer;
+    }
+
+    #status {
+      color: #38A3A5;
+      transition: all 120ms ease-in;
+      transform: scaleY(0);
+    }
+  </style>
+</head>
+
+<body>
+  <div id="app">
+    <div>
+      <img src="https://cdn.statically.io/gl/alfianokt/alfile/main/nodata.svg" alt="" height="100">
+      <p id="result">...</p>
+      <div>
+        <button id="generate">Generate</button>
+        <button id="copy">Copy</button>
+      </div>
+      <p id="status">Copied!</p>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/@lukeed/uuid@2.0.0/dist/index.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/copee/dist/copee.umd.min.js"></script>
+  <script>
+    const result = document.querySelector('#result');
+    const status = document.querySelector('#status');
+    const generateBtn = document.querySelector('#generate');
+    const copyBtn = document.querySelector('#copy');
+    const generateId = () => result.textContent = uuid.v4();
+
+    generateBtn.addEventListener('click', generateId);
+    copyBtn.addEventListener('click', () => {
+      const success = copee.toClipboard(result.textContent);
+      if (success) {
+        status.style.transform = 'scaleY(1)';
+        setTimeout(() => status.style.transform = 'scaleY(0)', 2000);
+      };
+    });
+
+    window.onload = generateId();
+  </script>
+</body>
+
+</html>
