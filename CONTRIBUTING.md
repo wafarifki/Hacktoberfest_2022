@@ -5,12 +5,16 @@
 3. M Yusril
 4. Pramdhanni Dwi Putra Bintang
 5. Alief Ramadhan
-4. FanChann
-5. mewxz029
-6. Makkun
-7. AkasakaID
-8. Axzid
-9. Baihaki Al Biruni
-10. mrsparkle-70
-11. vikashjha012
-12. meowcraftY
+
+6. FanChann
+7. mewxz029
+8. Makkun
+9. AkasakaID
+10. Axzid
+11. Baihaki Al Biruni
+12. mrsparkle-70
+13. vikashjha012
+14. radendi
+15. meowcraftY
+
+
